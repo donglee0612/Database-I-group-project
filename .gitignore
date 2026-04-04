@@ -1,0 +1,13 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+
+# Generated / output
+output/
+
+# Python
+__pycache__/
+*.pyc
