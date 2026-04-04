@@ -2,8 +2,9 @@
 .DS_Store
 Thumbs.db
 
-# Archives
+# Archives / Dataset
 *.zip
+yelpdata_CS3431/
 
 # Generated / output
 output/
@@ -11,3 +12,6 @@ output/
 # Python
 __pycache__/
 *.pyc
+
+# Project description 
+*.pdf
