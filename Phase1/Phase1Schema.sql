@@ -1,4 +1,4 @@
--- Team Name: 
+-- Team Name: KPD
 -- Team Members: Dorick, Park, Kim
 
 DROP TABLE IF EXISTS tip;
