@@ -1,5 +1,5 @@
 -- Team Name: KPD
--- Team Members: Dorick, Park, Kim
+-- Team Members: Jake Dorick, Minhyuk Park, Jimmy Kim
 
 DROP TABLE IF EXISTS tip;
 DROP TABLE IF EXISTS friend;
@@ -28,7 +28,7 @@ CREATE TABLE business (
 );
 
 CREATE TABLE business_hours (
-    business_id VARCHAR(22),
+    business_id VARCHAR(22) NOT NULL,
     day_of_week VARCHAR(9), -- Maximum number of characters is "Wednesday"
     open_time TIME,
     close_time TIME,
