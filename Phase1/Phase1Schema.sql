@@ -1,3 +1,16 @@
+-- ER Diagram:
+-- tip count is a derived attribute
+-- composite attribute (location) for longitude and lattitude
+-- same applied to address with state, stret, zip code, etc.
+-- Generally, ER is fine
+
+-- SQL:
+-- feel free to remove upper bounds on VARCHARs
+-- Use double for latitude and longitude
+-- NOT NULL not necessary for business_hours, check_in, and in tip
+-- make sure open_time and close_time are represented accurately
+-- business_category and business_attribute may not be necessary
+
 -- Team Name: KPD
 -- Team Members: Jake Dorick, Minhyuk Park, Jimmy Kim
 
